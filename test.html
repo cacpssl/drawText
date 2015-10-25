@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>draw Text</title>
+    <script type="text/javascript" src="drawText.js"></script>
+</head>
+<body style="margin:100px;">
+<script type="text/javascript">
+    var canvas = TextCanvas.create({width: 800, height: 400, fontFamily: "\u5B8B\u4F53"});
+    document.body.appendChild(canvas);
+    canvas.listenTextInput();
+</script>
+</body>
+</html>
